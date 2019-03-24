@@ -8,4 +8,4 @@ server:
       serviceUrl:
         defaultZone: http://localhost:1001/eureka/
 
-test: dev-1
+test: dev-2
