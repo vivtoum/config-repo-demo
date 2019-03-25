@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eureka-client
+server:
+  port: 2001
+  eureka:
+    client:
+      serviceUrl:
+      defaultZone: http://192.168.200.128:1001/eureka/,http://192.168.200.128:1002/eureka/,http://192.168.200.128:1003/eureka/
+test: dev分支
