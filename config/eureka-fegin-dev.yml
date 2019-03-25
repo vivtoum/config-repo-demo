@@ -8,4 +8,4 @@ server:
       serviceUrl:
         defaultZone: http://localhost:1001/eureka/
 
-test: {cipher}00710663a88bbf63bd3500546f2ef4c54243eaf377f0907a7807883d806bfe99
+test: '{cipher}00710663a88bbf63bd3500546f2ef4c54243eaf377f0907a7807883d806bfe99'
