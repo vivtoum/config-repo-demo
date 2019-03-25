@@ -8,4 +8,4 @@ server:
       serviceUrl:
         defaultZone: http://localhost:1001/eureka/
 
-test: '{cipher}AQBODFSh1uFGWpEkKl2OLTDmZpBvjMGZSRcN2bOzI4xOCu46Y+BaRwT2SUxExOE+/ltlsRBSo9Xb9FQkOqfDUZ6onvY5t4Jf0RnHq4Q7u2FWvptoAHQfqY7IyLJK1h7pj/CqmTet/AxEf/sry2OXFrdAsvarKx1hbu++IrS7vCE6toO+IEXBSLjm61eBvFT8zyKutK3kD8fSzGD+PZRSu4kdWuuOcA5ixjRxh+45S4NN6aVveIlLgXAzp4k/UmUtp/lRNVG3PPqBR0kjj0jF6wxuYE8Nd0Dpp8D/vjaAdY7TpvjZb4PAIIh3OtDIiOh/TFM0wlTFYsCkMH8TwkA5aE+oQpIR4uMI9VFtGa9eimKjR/WmArEU7U18Ka96Au4V2Js='
+test: '{cipher}AQCMTaodwyQWkHD/UAN/DuxthiYWBuWob4XQxiyLjfP8WHJ9NswbUw7X/k3tPSzLjm4+N8xfnwUzd4dbvPYDKAbpo/97OGlQVSBmnoO46gHq7BytDxzjpaRqH+bkYW9601cHSus+uR9qqWOV5Gqteshvihn7/ibe4gCZ+i7EA+DJ7nIXJo1brebs4NUY1Y5hVbMEN9jWSLOU3V/cXoMh2689KXSeygmBrVKuQ8COjYliaf4HSnb36Fcj6zAIABq7+H0cdbzyUCaNdlEcBTQ+xzs0yoLKfFmSS6T9fVcy6R+U2TQUNZOLgj2mJU5oSNNKPJc6UfETHD06hFhDsDDtUEhSQSUz71dXHVUzxdbEmdWfv5qT25PZY1wOz+ssrjcgnHg='
