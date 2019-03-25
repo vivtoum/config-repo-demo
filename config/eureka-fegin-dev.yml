@@ -8,4 +8,4 @@ server:
       serviceUrl:
         defaultZone: http://localhost:1001/eureka/
 
-test: '{cipher}00710663a88bbf63bd3500546f2ef4c54243eaf377f0907a7807883d806bfe99'
+test: '{cipher}AQBODFSh1uFGWpEkKl2OLTDmZpBvjMGZSRcN2bOzI4xOCu46Y+BaRwT2SUxExOE+/ltlsRBSo9Xb9FQkOqfDUZ6onvY5t4Jf0RnHq4Q7u2FWvptoAHQfqY7IyLJK1h7pj/CqmTet/AxEf/sry2OXFrdAsvarKx1hbu++IrS7vCE6toO+IEXBSLjm61eBvFT8zyKutK3kD8fSzGD+PZRSu4kdWuuOcA5ixjRxh+45S4NN6aVveIlLgXAzp4k/UmUtp/lRNVG3PPqBR0kjj0jF6wxuYE8Nd0Dpp8D/vjaAdY7TpvjZb4PAIIh3OtDIiOh/TFM0wlTFYsCkMH8TwkA5aE+oQpIR4uMI9VFtGa9eimKjR/WmArEU7U18Ka96Au4V2Js='
