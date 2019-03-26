@@ -1,11 +1,6 @@
 spring:
   application:
     name: eureka-client
-  rabbitmq:                                #本地环境不需要配置mq
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
 
 server:
   port: 2001
