@@ -6,6 +6,6 @@ server:
   eureka:
     client:
       serviceUrl:
-      defaultZone: http://192.168.200.128:1001/eureka/,http://192.168.200.128:1002/eureka/,http://192.168.200.128:1003/eureka/
+      defaultZone: http://svc1:1001/eureka/,http://svc2:1002/eureka/,http://svc3:1003/eureka/
 
 test: '{cipher}AQCMTaodwyQWkHD/UAN/DuxthiYWBuWob4XQxiyLjfP8WHJ9NswbUw7X/k3tPSzLjm4+N8xfnwUzd4dbvPYDKAbpo/97OGlQVSBmnoO46gHq7BytDxzjpaRqH+bkYW9601cHSus+uR9qqWOV5Gqteshvihn7/ibe4gCZ+i7EA+DJ7nIXJo1brebs4NUY1Y5hVbMEN9jWSLOU3V/cXoMh2689KXSeygmBrVKuQ8COjYliaf4HSnb36Fcj6zAIABq7+H0cdbzyUCaNdlEcBTQ+xzs0yoLKfFmSS6T9fVcy6R+U2TQUNZOLgj2mJU5oSNNKPJc6UfETHD06hFhDsDDtUEhSQSUz71dXHVUzxdbEmdWfv5qT25PZY1wOz+ssrjcgnHg='
