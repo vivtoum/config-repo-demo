@@ -8,4 +8,4 @@ eureka:
     serviceUrl:
       defaultZone: http://svc1:1001/eureka/,http://svc2:1002/eureka/,http://svc3:1003/eureka/
 
-test: '{cipher}AQBRfxgAlhLeuw/Zg0LWvtaNlFFrcTknAvX9mzeMStZ3XNDuGYERXG4v/S+pkbGd+3ARQxIN+juYzyTwIURvrOlah0Coe2SfmMF1aa1MRMpazC/7hgTpThy89KgTXCInhw3qvesba2vBjjH3ZMBuxZiB8jS/ain3XRx31nDy5V/wFTINJxuSAt6e51f6ekCQiZ0AjdVugDuhs5ovhH8bBGcjKzBCjDQ4TN/6EZm4pThzmAhuGNf7CuvtZLuidc2VidPIabi+C104HUI1pYZWAk03O5cakyRqHhAWaXleKv2SNMZNLFAgx3NpSEGohSV3tUw+YiJV9nzAxnnaB4sTjtGfDTylzI4Ng6cNbE9gHW26z9ua9ZuK3jnHMlmseAD23V0='
+test: '{cipher}AQB2xJvbko/P5BA9FRffk384b4bowV5HtVgrekKKkY9PO5WbJT/s94+b8xFhdOhuzrSLoHkYnLZLIvuYKpD4VyZLoTphu02n3Ho12uGTNrLvy4NL+yApwmkownvMXwLuEV58Zd6S0pi6rcNs1yM4WaN2Oo+ZV+6ghLg7J8fd1b/iZj3uHq8/vn+6UOupgHpa7a16DzktHJ9w6rIZYwWCFtTEqyWaRENG3dSLAJtyFJe+/9z/oX5DdS8Tj4iAk474edd4uQgxLRc+/d8uohjxbPaMCRHrNwfOyfKBmQHuSRWxUob5u0FMlX024BUrAjTFrGB3pBKs5xcgBwjEki2B+r0g+yAoQe+1wh0z2WTnpuZdCrdtOu8SGvWdMt2MZ/coqPM='
