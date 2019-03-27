@@ -8,8 +8,8 @@ spring:
     url: jdbc:mysql://39.104.49.60:3306/springbootdemo?useSSL=false
     #    url: jdbc:mysql://localhost:3306/springbootdemo?useSSL=false
 
-    username: root
-    password: 123456
+    username: '{cipher}AQBOuzIYPx7bo3W0F70+40kihXfWVagsZAgZVGO1wYMrWxoPJ1fmbma+FRf7iqBLFuySGfkhhWEV64a9IRgJKAbvrzdJc7dmKzUK56XZZgcNo8bc0icTnJMM1mcaa9OVfAggPinn7IX0e/0Tgdp+hKwYRzTINh4u8VELmAqvpi+2z0Ma5y0ndltsZ+f3Mv8JTSx0pSh1RTCGZXOTG6paBZPRo53f95APXz+eWqtoTW6l8uNZRxj9aeSDjy59ruv1k7url71iRUwvKb+gRMjN/1ysC05FyIeukfi5ZRA/Ve8Lr7TpZBh+ZjWw+qUwqYEYs7FSH241q97rpD16Iz8t3yO+Ow/98kJL0c8ABdQlrARh68yVN+/sCsmWNETHcyXlJkI='
+    password: '{cipher}AQAGDfpdfzT077n3g7MnIMIa8vytT1ZhgS56xYnbp7chBwpP2AMu9MesRW0TihWuwgzJNaM22ik3pV6gMVH97FvJUrT/qkjrRkSW1QXyrZsjEpQgtZw1TdM7kKQ3XNDAq4ed1Pkfko+6OgODZBV9YwwVnkVidCbUAgxQS04OKw4OwBEOPu1+AfA2VBTZqy8jrr7pXFKTt3/QOkY5R0b0TgQAcipuEAVG3T6vAkSQSfzsdmuoVHDNPOHTn0pNmXTR/SjaSvj5qYQrrCiyxMSn/fW+pkh92iBSunK6IFahXXgV+U97j7XyqOHt4SPvsU5Cy0GMEb6hNXck49Fe8HkUd3RnC835ooa1fTrMvPb3H9ul/Zee2i9muleiML6yANlsVMs='
     tomcat:
       max-active: 100
       max-idle: 200
