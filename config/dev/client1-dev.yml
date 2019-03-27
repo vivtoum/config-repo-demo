@@ -1,4 +1,45 @@
+server:
+  port: 2101
 spring:
+  profiles: dev
+  application:
+    name: client1
+  datasource:
+    url: jdbc:mysql://39.104.49.60:3306/springbootdemo?useSSL=false
+    #    url: jdbc:mysql://localhost:3306/springbootdemo?useSSL=false
+
+    username: root
+    password: 123456
+    tomcat:
+      max-active: 100
+      max-idle: 200
+      initial-size: 20
+      driver-class-name: com.mysql.jdbc.Driver
+    #    type: com.zaxxer.hikari.HikariDataSource
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://svc1:1001/eureka/,http://svc2:1002/eureka/,http://svc3:1003/eureka/
+#test: '{cipher}AQB2xJvbko/P5BA9FRffk384b4bowV5HtVgrekKKkY9PO5WbJT/s94+b8xFhdOhuzrSLoHkYnLZLIvuYKpD4VyZLoTphu02n3Ho12uGTNrLvy4NL+yApwmkownvMXwLuEV58Zd6S0pi6rcNs1yM4WaN2Oo+ZV+6ghLg7J8fd1b/iZj3uHq8/vn+6UOupgHpa7a16DzktHJ9w6rIZYwWCFtTEqyWaRENG3dSLAJtyFJe+/9z/oX5DdS8Tj4iAk474edd4uQgxLRc+/d8uohjxbPaMCRHrNwfOyfKBmQHuSRWxUob5u0FMlX024BUrAjTFrGB3pBKs5xcgBwjEki2B+r0g+yAoQe+1wh0z2WTnpuZdCrdtOu8SGvWdMt2MZ/coqPM='
+test: test-1
+
+---
+server:
+  port: 2102
+spring:
+  profiles: dev2
   application:
     name: client1
   datasource:
@@ -31,15 +72,4 @@ eureka:
       defaultZone: http://svc1:1001/eureka/,http://svc2:1002/eureka/,http://svc3:1003/eureka/
 #test: '{cipher}AQB2xJvbko/P5BA9FRffk384b4bowV5HtVgrekKKkY9PO5WbJT/s94+b8xFhdOhuzrSLoHkYnLZLIvuYKpD4VyZLoTphu02n3Ho12uGTNrLvy4NL+yApwmkownvMXwLuEV58Zd6S0pi6rcNs1yM4WaN2Oo+ZV+6ghLg7J8fd1b/iZj3uHq8/vn+6UOupgHpa7a16DzktHJ9w6rIZYwWCFtTEqyWaRENG3dSLAJtyFJe+/9z/oX5DdS8Tj4iAk474edd4uQgxLRc+/d8uohjxbPaMCRHrNwfOyfKBmQHuSRWxUob5u0FMlX024BUrAjTFrGB3pBKs5xcgBwjEki2B+r0g+yAoQe+1wh0z2WTnpuZdCrdtOu8SGvWdMt2MZ/coqPM='
 test: test-2
----
-spring:
-  profiles:
-    active: dev
-server:
-  port: 2101
----
-spring:
-  profiles:
-    active: dev2
-server:
-  port: 2102
+
