@@ -16,4 +16,4 @@ test: zuul
 #只要访问以/api/开头的多层目录都可以路由到服务名为cloud-provider的服务上.
 zuul:
   routes:
-    consumer1: /user/**:
+    consumer1: /user/**
