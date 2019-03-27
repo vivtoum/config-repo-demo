@@ -1,8 +1,8 @@
+server:
+  port: 2101
 spring:
   application:
     name: client1
-  server:
-    port: 2101
   datasource:
     url: jdbc:mysql://39.104.49.60:3306/springbootdemo?useSSL=false
     #    url: jdbc:mysql://localhost:3306/springbootdemo?useSSL=false
