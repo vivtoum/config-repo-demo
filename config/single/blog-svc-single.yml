@@ -38,6 +38,10 @@ spring:
       max-idle: 200
       initial-size: 20
       driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 39.104.49.60                                    #部署信息（Redis主机地址）
+    port: 6379                                            #部署信息（Redis访问端口）
+    password: '{cipher}AQCK/iz3ke6T9EiUZKaU38NzRgSHApPYaSyMXX2gBRkOl3+P73lQv/3xWLckpXqnU6rm2btDc5YOdxt2/IitIH9Yu5YeOxzfDqrfO+KZfNrS6IwbD9bPdX7yd1HFPBthabjKrvBdxa33GCmjtLYNqgclIisNIaDbJozycIziWZ+B2dpb9EHgOY8RdPTw7/gEAQQMcRVdhSuICojIDr++XEHuX+smq4WV99+FTFZYo3/1A67QTBtDkdlC9lHoNJe5+KhwNBolOTsL4OHYiwJZJBtx4hHaf7gjRbLKlt5jGjc2I1YR/pBpkso0RyrcHBuahIS1l7AcWHeKzqN/XyTQhaPrpJAk8aF9MLMM4OAAaNDeK2jIEtU5VMOlDC/6d704bks='                               #部署信息（Redis认证密码）
 
 blog-svc:
   url: http://localhost:8081
