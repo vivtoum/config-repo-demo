@@ -8,14 +8,16 @@ spring:
   thymeleaf:
     cache: false
     prefix: classpath:/view/
+  redis:
+    host: 39.104.49.60                                    #部署信息（Redis主机地址）
+    port: 6379                                            #部署信息（Redis访问端口）
+    password: '{cipher}AQCK/iz3ke6T9EiUZKaU38NzRgSHApPYaSyMXX2gBRkOl3+P73lQv/3xWLckpXqnU6rm2btDc5YOdxt2/IitIH9Yu5YeOxzfDqrfO+KZfNrS6IwbD9bPdX7yd1HFPBthabjKrvBdxa33GCmjtLYNqgclIisNIaDbJozycIziWZ+B2dpb9EHgOY8RdPTw7/gEAQQMcRVdhSuICojIDr++XEHuX+smq4WV99+FTFZYo3/1A67QTBtDkdlC9lHoNJe5+KhwNBolOTsL4OHYiwJZJBtx4hHaf7gjRbLKlt5jGjc2I1YR/pBpkso0RyrcHBuahIS1l7AcWHeKzqN/XyTQhaPrpJAk8aF9MLMM4OAAaNDeK2jIEtU5VMOlDC/6d704bks='                               #部署信息（Redis认证密码）
+
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:1001/eureka/
-#test: '{cipher}AQB2xJvbko/P5BA9FRffk384b4bowV5HtVgrekKKkY9PO5WbJT/s94+b8xFhdOhuzrSLoHkYnLZLIvuYKpD4VyZLoTphu02n3Ho12uGTNrLvy4NL+yApwmkownvMXwLuEV58Zd6S0pi6rcNs1yM4WaN2Oo+ZV+6ghLg7J8fd1b/iZj3uHq8/vn+6UOupgHpa7a16DzktHJ9w6rIZYwWCFtTEqyWaRENG3dSLAJtyFJe+/9z/oX5DdS8Tj4iAk474edd4uQgxLRc+/d8uohjxbPaMCRHrNwfOyfKBmQHuSRWxUob5u0FMlX024BUrAjTFrGB3pBKs5xcgBwjEki2B+r0g+yAoQe+1wh0z2WTnpuZdCrdtOu8SGvWdMt2MZ/coqPM='
-test: zuul
-
+      defaultZone: http://118.24.203.80:1001/eureka/
 
 #只要访问以/api/开头的多层目录都可以路由到服务名为cloud-provider的服务上.
 zuul:
