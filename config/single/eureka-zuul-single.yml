@@ -23,12 +23,3 @@ eureka:
 zuul:
   routes:
     sso-server: /sso-server/**
-
-#监控关闭
-security:
-  basic:
-    enabled: false
-
-management:
-  security:
-    enabled: false
