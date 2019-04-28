@@ -45,3 +45,10 @@ spring:
 
 blog-svc:
   url: http://localhost:${server.port}
+
+security:
+  oauth2:
+    resource:
+      id: ${spring.application.name}
+      user-info-uri: http://www.vivtoum.tech:5000/user
+      prefer-token-info: false
