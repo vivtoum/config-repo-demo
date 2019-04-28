@@ -7,7 +7,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://118.24.203.80:1001/eureka                    #部署信息（注册中心地址）
+      defaultZone: http://www.vivtoum.tech:1001/eureka/                    #部署信息（注册中心地址）
 feign:
   client:
     config:
@@ -30,7 +30,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://39.104.49.60:3306/springbootdemo?useSSL=false
+    url: jdbc:mysql://www.vivtoum.tech:3306/springbootdemo?useSSL=false
     username: '{cipher}AQBWKljmfedMRv0k6Mf/XFBR2eGfmFdywzjSkC23vVROVQi06mSx4HmUQ9oTuO5ndj1FW3RrRl2/W1xVJb4fcbMYWCst7L27JmyIdvZ5NXTY/07cmcri5w9xcLs4CVLN09EphKPzgryXPlhQQP48uKJcdtxIO8dqcMjn7C3cKP5tpHhqURHvCmKD0SBTubkpcdf7BG6RvBQoVYoNJS9Zv1HVaZ+GWfHkhSRq6k1o/5ANfNan94XD+UE7wUKNnvNbROEwpSUZv1aQXocPMAquqKRUVusNDzbZymEPYmZsZRMqlqM5viAJmJMRhfF6/lK20WZEjSzGnnDK70LhKji/Q+Q7V/dM+Snk2JwSuLRLQ31tA/GBvivVmS4xasjGmS+xiuA='
     password: '{cipher}AQCOpkg6WOxG7nV9Jgwx54C+cnUP7Q/ODFXmbIEANfitOhOy+3eniApAdGk12ceFJ+lEZX2VClosst6/rlFZDaz8ZxxhLnF+76ZiLyh2W7Kcef3faJy2+ARn2xowOeFMfWqkl2+DnV8fRu6r8AYuQS+PwnrbmzgIF81r2szYUkqOHp7XIORgoX+A5E0Dw4enKy7vI2buMzXc5NbPBhNg4gGFBGtXyG7cwqVAgqvnxLnC95EDPLFTa0dpqKcK/mUxlC3virs0UHYueE4C/yMBtb+UbyCqTGFSkWx0MPs1wuHEW8DPOczoqkOtezsMWzGH/j573b3Gt1Ba6XhqxPoY+gy2bE1tg+2NaLbWDdcHgOCLv2P3v1jEodEAQgE0nCUlaZw='
     tomcat:
@@ -39,9 +39,9 @@ spring:
       initial-size: 20
       driver-class-name: com.mysql.jdbc.Driver
   redis:
-    host: 39.104.49.60                                    #部署信息（Redis主机地址）
+    host: www.vivtoum.tech                                #部署信息（Redis主机地址）
     port: 6379                                            #部署信息（Redis访问端口）
     password: '{cipher}AQCK/iz3ke6T9EiUZKaU38NzRgSHApPYaSyMXX2gBRkOl3+P73lQv/3xWLckpXqnU6rm2btDc5YOdxt2/IitIH9Yu5YeOxzfDqrfO+KZfNrS6IwbD9bPdX7yd1HFPBthabjKrvBdxa33GCmjtLYNqgclIisNIaDbJozycIziWZ+B2dpb9EHgOY8RdPTw7/gEAQQMcRVdhSuICojIDr++XEHuX+smq4WV99+FTFZYo3/1A67QTBtDkdlC9lHoNJe5+KhwNBolOTsL4OHYiwJZJBtx4hHaf7gjRbLKlt5jGjc2I1YR/pBpkso0RyrcHBuahIS1l7AcWHeKzqN/XyTQhaPrpJAk8aF9MLMM4OAAaNDeK2jIEtU5VMOlDC/6d704bks='                               #部署信息（Redis认证密码）
 
 blog-svc:
-  url: http://localhost:8081
+  url: http://localhost:${server.port}
