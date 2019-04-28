@@ -32,7 +32,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://www.vivtoum.tech:3306/springbootdemo?useSSL=false
     username: '{cipher}AQBWKljmfedMRv0k6Mf/XFBR2eGfmFdywzjSkC23vVROVQi06mSx4HmUQ9oTuO5ndj1FW3RrRl2/W1xVJb4fcbMYWCst7L27JmyIdvZ5NXTY/07cmcri5w9xcLs4CVLN09EphKPzgryXPlhQQP48uKJcdtxIO8dqcMjn7C3cKP5tpHhqURHvCmKD0SBTubkpcdf7BG6RvBQoVYoNJS9Zv1HVaZ+GWfHkhSRq6k1o/5ANfNan94XD+UE7wUKNnvNbROEwpSUZv1aQXocPMAquqKRUVusNDzbZymEPYmZsZRMqlqM5viAJmJMRhfF6/lK20WZEjSzGnnDK70LhKji/Q+Q7V/dM+Snk2JwSuLRLQ31tA/GBvivVmS4xasjGmS+xiuA='
-    password: '{cipher}AQCOpkg6WOxG7nV9Jgwx54C+cnUP7Q/ODFXmbIEANfitOhOy+3eniApAdGk12ceFJ+lEZX2VClosst6/rlFZDaz8ZxxhLnF+76ZiLyh2W7Kcef3faJy2+ARn2xowOeFMfWqkl2+DnV8fRu6r8AYuQS+PwnrbmzgIF81r2szYUkqOHp7XIORgoX+A5E0Dw4enKy7vI2buMzXc5NbPBhNg4gGFBGtXyG7cwqVAgqvnxLnC95EDPLFTa0dpqKcK/mUxlC3virs0UHYueE4C/yMBtb+UbyCqTGFSkWx0MPs1wuHEW8DPOczoqkOtezsMWzGH/j573b3Gt1Ba6XhqxPoY+gy2bE1tg+2NaLbWDdcHgOCLv2P3v1jEodEAQgE0nCUlaZw='
+    password: '{cipher}AQCExPOL2gBjU3r2DNsy+82n1Cju2FDFfA8Oezgn1uUIr+BuY2HozZ1a3Ko57Pba9HsovfBCp6CmhM8EirqDT6pkADo+jIhjW5pS/GMnmOIeHi6tBxRGkXFZL9XxbPqKdOH3NUKXB4eHTKcaWmP5793OJULa/mZ2m4bVzOXRIkf4WPpYgMnK3Bd5PNC2gbcQc77XwovEqIbj6icwBQVc34epGPFsj1g0atECoFKoy3F1jq+Xr8eQS+79B7LGym8WHF7bpm4C4wCVrFIRbwO6PM5Xdt055aBMrzvqnz4tg9H8hSqs9c7R2mBlQ/20S5lLJeo43EIemH8lO7zE849wKs4989AYyvsqdnldciEAFoc+4fiaE5unOcE7XzlkOv2tsc4='
     tomcat:
       max-active: 100
       max-idle: 200
